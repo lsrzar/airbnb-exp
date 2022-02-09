@@ -1,0 +1,31 @@
+.hero {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 0px;
+}
+
+.hero--grid {
+  margin-top: 26px;
+  height: 232px;
+  width: 395px;
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--title {
+  margin-top: 32px;
+  margin-left: 36px;
+  margin-bottom: 16px;
+  font-size: 36px;
+  align-self: flex-start;
+}
+
+.hero--description {
+  margin-top: 0px;
+  margin-left: 36px;
+  width: 320px;
+  font-size: 16px;
+  text-align: left;
+}

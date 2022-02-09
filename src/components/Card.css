@@ -1,0 +1,69 @@
+.card {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 37px;
+  padding-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #222222;
+}
+
+.card--stock {
+  background-color: white;
+  color: #222222;
+  font-size: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 5px 6px 4px 6px;
+  width: 61px;
+  font-weight: 600;
+}
+
+.card--img {
+  width: 176px;
+  height: 235px;
+  border-radius: 10px;
+}
+
+.card--info {
+  width: 176px;
+  padding-top: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card--rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card--rating-star {
+  width: 14px;
+  height: 14px;
+}
+
+.card--rating-text {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 2px;
+  font-size: 12px;
+}
+
+.card--rating-text-light {
+  color: #918e9b;
+}
+
+.card--text {
+  margin: 0;
+  text-align: left;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.card--price {
+  margin: 0;
+  text-align: left;
+  font-size: 12px;
+}
