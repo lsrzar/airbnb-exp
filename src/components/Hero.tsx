@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 
-export default function Hero() {
+export default function Hero(): JSX.Element {
   return (
     <section className='hero'>
       <img className='hero--grid' src='../images/photo-grid.png' alt='Grid' />
