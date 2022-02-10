@@ -3,7 +3,7 @@ import './Navbar.css';
 
 export default function Navbar(): JSX.Element {
   return (
-    <nav>
+    <nav className='Navbar'>
       <a href='./index.html'>
         <img className='nav--logo' src='../images/airbnb-logo.png' alt='logo' />
       </a>

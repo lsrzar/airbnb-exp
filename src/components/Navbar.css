@@ -1,13 +1,16 @@
-nav {
+.Navbar {
   background-color: white;
   position: fixed;
   width: 100%;
   height: 70px;
   display: flex;
-  padding: 20px 36px;
+  align-items: center;
+  padding: 36px 20px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
 .nav--logo {
   max-width: 100px;
+  height: 25px;
+  width: 82px;
 }
