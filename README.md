@@ -5,6 +5,8 @@
 </p>
 
 ## Clone of Airbnb Experiences page
-- Made in React with Typescript
+Technologies used:
+- Typescript
+- React
 
 /lesrz.
