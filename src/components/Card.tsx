@@ -1,7 +1,15 @@
 import React from 'react';
 import './Card.css';
 
-export default function Card() {
+export default function Card(props: {
+  img: string;
+  alt: string;
+  rating: string;
+  reviewCount: number;
+  country: string;
+  title: string;
+  price: number;
+}) {
   return (
     <div className='card'>
       <a className='card--stock' href='./index.html'>
@@ -9,8 +17,8 @@ export default function Card() {
       </a>
       <img
         className='card--img'
-        src='./images/katie-zaferes.png'
-        alt='Katie Zafares smiling'
+        src={`./images/${props.img}`}
+        alt={props.alt}
       />
       <div className='card--info'>
         <div className='card--rating'>
@@ -20,12 +28,15 @@ export default function Card() {
             alt='Red star'
           />
           <p className='card--rating-text'>
-            5.0 <span className='card--rating-text-light'>(6) • USA</span>
+            {props.rating}
+            <span className='card--rating-text-light'>
+              ({props.reviewCount}) • {props.country}
+            </span>
           </p>
         </div>
-        <p className='card--text'>Life lessons with Katie Zaferes</p>
+        <p className='card--text'>{props.title}</p>
         <p className='card--price'>
-          <b>From $136</b> / person
+          <b>From ${props.price}</b> / person
         </p>
       </div>
     </div>
