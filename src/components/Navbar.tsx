@@ -5,7 +5,7 @@ export default function Navbar(): JSX.Element {
   return (
     <nav className='Navbar'>
       <a href='./index.html'>
-        <img className='nav--logo' src='../images/airbnb-logo.png' alt='logo' />
+        <img className='nav--logo' src='../images/airbnb-logo.svg' alt='logo' />
       </a>
     </nav>
   );

@@ -1,31 +1,33 @@
 .hero {
-  height: 480px;
   display: flex;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 49px;
   padding-top: 15vh;
 }
 
 .hero--grid {
+  padding-bottom: 22px;
   height: 232px;
-  width: 395px;
+  width: 395.91px;
   max-width: 400px;
   align-self: center;
 }
 
 .hero--title {
   margin: 0;
-  padding-top: 22px;
   font-size: 36px;
+  width: 347px;
+  height: 40px;
+  font-weight: 600;
   align-self: flex-start;
 }
 
 .hero--description {
   margin: 0;
-  padding-top: 11px;
   width: 320px;
+  padding-top: 26px;
   font-size: 16px;
   text-align: left;
   line-height: 18px;
