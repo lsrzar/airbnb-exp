@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 
-export default function Navbar(): JSX.Element {
+export default function Navbar(): React.ReactElement {
   return (
     <nav className='Navbar'>
       <a href='./index.html'>
